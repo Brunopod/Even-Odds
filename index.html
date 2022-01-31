@@ -11,20 +11,26 @@
 </head>
 <body>
     <h1 id="heading">Even Odds</h1>
+        <input type="button" class="button" value="EVEN!">
+        <input type="button" class="button" value="ODD!">
     <div id="game-space">
 
-        <div id=control-space>
-            <input type="button" class="button" value="EVEN!">
-            <input type="button" class="button" value="ODD!">
-        </div>
-
         <div id="result-space">
-            <div class="images"></div>
-            <div class="images"></div>
+            <div class="number">
+                <h2>Your number:</h2>
+            </div>
+            <div class="number">
+                <h2>Computer's number:</h2>
+            </div>
         </div>
 
     </div>
     
-    <div id="score-space"></div>
+    <div id="score-space">
+        <p class="guess">Lucky Guess:<span id="correct"> 0 </span></p>
+        <p class="guess">Unlucky Guess:<span id="incorrect"> 0 </span></p>
+    </div>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
