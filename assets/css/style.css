@@ -47,7 +47,7 @@ body {
     border-radius: 10px;
 }
 
-.number {
+.rng-number {
     display: inline-block;
     background-color: hotpink;
     font-size: 0.75em;
